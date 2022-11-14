@@ -7,20 +7,20 @@
       "description": "El token del bot"
     },
     "proxy_enc": {
-      "description": "Proxy Encriptado",
-      "value": "http://KHGHJHYHJHLHFHYHDHGHYHJHHHCHRHDHLHDHLH"
+      "description": "Proxy Encriptado"
+      #"value": "http://KHGHJHYHJHLHFHYHDHGHYHJHHHCHRHDHLHDHLH"
     },
     "api_id": {
-      "description": "Api Id de telegram",
-      "value": "18641760"
+      "description": "Api Id de telegram"
+      #"value": "18641760"
     },
     "api_hash": {
-      "description": "Api Hash de telegram",
-      "value": "b7b026ce9d1d36400c02dc21d8df53a3"
+      "description": "Api Hash de telegram"
+      #"value": "b7b026ce9d1d36400c02dc21d8df53a3"
     },
     "tl_admin_user": {
       "description": "Usuarios Permitidos",
-      "value": "obisoftt"
+      "value": "Haroldgo09"
     }
   }
 }
