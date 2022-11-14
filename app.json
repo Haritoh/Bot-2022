@@ -4,19 +4,20 @@
   "repository": "https://github.com/ObisoftDev/ownclouduci",
   "env": {
     "bot_token": {
-      "description": "El token del bot"
+      "description": "El token del bot",
+      "value": "2052959145:AAFHVdMy9n3GOpdKMg9doQ-Wo7cn760HSKc"
     },
     "proxy_enc": {
-      "description": "Proxy Encriptado"
-      #"value": "http://KHGHJHYHJHLHFHYHDHGHYHJHHHCHRHDHLHDHLH"
+      "description": "Proxy Encriptado",
+      "value": "http://KHGHJHYHJHLHFHYHDHGHYHJHHHCHRHDHLHDHLH"
     },
     "api_id": {
-      "description": "Api Id de telegram"
-      #"value": "18641760"
+      "description": "Api Id de telegram",
+      "value": "7373129"
     },
     "api_hash": {
-      "description": "Api Hash de telegram"
-      #"value": "b7b026ce9d1d36400c02dc21d8df53a3"
+      "description": "Api Hash de telegram",
+      "value": "f2537822420e8dfc308c6b3e41989366"
     },
     "tl_admin_user": {
       "description": "Usuarios Permitidos",
