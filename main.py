@@ -331,6 +331,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
             txtfile = open(txtsendname,'w')
             urls = []
             for item in resultlist:
+                await bot.send_message(ev.chat.id,str(item.url))
                 urls.append(item.url)
             await bot.edit_message(ev.chat,message,text=f'🔗Generando XDLinks...')
             data = xdlink.parse(urls)
