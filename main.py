@@ -167,8 +167,8 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
     username = ev.message.chat.username
     text = ev.message.text
 
-    #if username not in config.ACCES_USERS:
-    if username not in tl_admin_users:
+    if username not in config.ACCES_USERS:
+    #if username not in tl_admin_users:
         await bot.send_message(ev.chat.id,'🛑No Tiene Acceso🛑')
         return
 
